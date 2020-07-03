@@ -12,6 +12,7 @@ header .pic{
 }
 
 .btn {
+  text-decoration: none;
   font-size: 30px;
   padding: 20px;
 }
