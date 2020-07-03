@@ -2,3 +2,16 @@ header .pic{
   width: 100%;
   text-align: center;
 }
+
+.container h1{
+  font-size: 50px;
+}
+
+.container h2 {
+  font-weight: normal;
+}
+
+.btn {
+  font-size: 30px;
+  padding: 20px;
+}
