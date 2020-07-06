@@ -11,20 +11,46 @@
         <img src="img/zakichan.png" alt="">
       </div>
     </header>
-
-    <section>
-      <div class="container">
-        <h1>ざきあぷり</h1>
-        <h2>ドットインストールのレッスンで作成したアプリを自分なりに手を加えました。</h2>
-        <a href="https://zakkichan.github.io/win-lose/" class="btn" target="_blank">あたりはずれ</a>
-        <a href="https://zakkichan.github.io/slotmachine/" class="btn" target="_blank">スロットマシン</a>
-        <a href="https://zakkichan.github.io/number-push/" class="btn" target="_blank">ナンバープッシュ</a>
-      </div>
-    </section>
-
     
+    <h1>ざきあぷり</h1>
+    <h2></h2>
+    <h2>※詳細はクリックすると開きます。</h2>
+
+    <div id="modal-content-01" class="modal-content">
+      <p>6つの箱から1つのあたりを探そう。</p>
+      <a href="https://zakkichan.github.io/win-lose/" class="btn" target="_blank">プレイする</a>
+      <p><a id="modal-close" class="button-close">閉じる</a></p>
+    </div>
+    <div id="modal-content-02" class="modal-content">
+      <p>スロットで3つの絵柄をそろえよう。</p>
+      <a href="https://zakkichan.github.io/slotmachine/" class="btn" target="_blank">プレイする</a>
+      <p><a id="modal-close" class="button-close">閉じる</a></p>
+    </div>
+    <div id="modal-content-03" class="modal-content">
+      <p>ランダムに並んだ数字を1から順番にタッチするゲームです。
+      <br>以下の4種類から選べます。</p>
+      <a href="https://zakkichan.github.io/number-push2/" class="btn" target="_blank">4マスをプレイする</a>
+      <a href="https://zakkichan.github.io/number-push3/" class="btn" target="_blank">9マスをプレイする</a>
+      <a href="https://zakkichan.github.io/number-push4/" class="btn" target="_blank">16マスをプレイする</a>
+      <a href="https://zakkichan.github.io/number-push5/" class="btn" target="_blank">25マスをプレイする</a>
+      <a id="modal-close" class="button-close">閉じる</a>
+    </div>
+    <div id="modal-content-04" class="modal-content">
+      <p>4つ目のモーダルウィンドウです。全体を囲むdiv要素に[id="modal-content-01"]が設定されています。</p>
+      <p>「閉じる」か「背景」をクリックするとモーダルウィンドウを終了します。</p>
+      <p><a id="modal-close" class="button-close">閉じる</a></p>
+    </div>
+
+    <p><a class="modal-syncer button-link" data-target="modal-content-01">あたりはずれ</a></p>
+    <p><a class="modal-syncer button-link" data-target="modal-content-02">スロットマシン</a></p>
+    <p><a class="modal-syncer button-link" data-target="modal-content-03">ナンバープッシュ</a></p>
+    <p><a class="modal-syncer button-link" data-target="modal-content-04">クリックすると、4つ目のモーダルウィンドウを開きます。</a></p>
+   
     <footer>
 
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script text="text/javascript" src="js/main.js"></script>
   </body>
 </html>
