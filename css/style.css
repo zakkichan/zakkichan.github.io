@@ -14,10 +14,14 @@ body {
 
 h1 {
   padding: 0 100px;
+  font-weight: normal;
+  font-size: 40px;
 }
 
 h2 {
   padding: 0 100px;
+  font-weight: normal;
+  font-size: 30px;
 }
 
 .modal-content {
@@ -69,6 +73,7 @@ h2 {
   cursor: pointer;
   opacity: 0.5;
 }
+
 
 @media (max-width: 670px) {
   h1 {
