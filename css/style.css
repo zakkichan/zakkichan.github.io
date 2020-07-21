@@ -76,6 +76,14 @@ h2 {
 
 
 @media (max-width: 670px) {
+  body {
+    width: 90%;
+  }
+
+  .pic img {  
+    width: 90%;
+  }
+
   h1 {
     padding: 0;
   }
